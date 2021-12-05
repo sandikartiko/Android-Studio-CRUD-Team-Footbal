@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/per"
+    tools:context=".MainUpdel">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Player And Delete"
+        android:textColor="#F8F5F5"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/updel_nama_player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="name Player"
+        android:textColor="#FAF8F8"
+        android:textColorHint="#FBF9F9" />
+
+    <EditText
+        android:id="@+id/updel_posisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Posisition"
+        android:textColor="#FBF8F8"
+        android:textColorHint="#FBF6F6" />
+
+    <Button
+        android:id="@+id/btn_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#36171616"
+        android:backgroundTintMode="multiply"
+        android:text="UPDATE" />
+
+    <Button
+        android:id="@+id/btn_del"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#39FFFFFF"
+        android:backgroundTintMode="multiply"
+        android:text="DELETE" />
+</LinearLayout>
